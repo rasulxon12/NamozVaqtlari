@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_date">
+
+        <item>
+        Toshkent
+        </item>
+
+        <item>
+        Farg\'ona
+        </item>
+
+        <item>
+        Andijon
+        </item>
+
+        <item>
+        Samarqand
+        </item>
+
+        <item>
+        Namangan
+        </item>
+
+        <item>
+        Buxoro
+        </item>
+
+        <item>
+        Jizzax
+        </item>
+
+        <item>
+        Navoiy
+        </item>
+
+        <item>
+        Sirdaryo
+        </item>
+
+        <item>
+        Xorazm
+        </item>
+
+
+
+        <item>
+        Qoraqalpogiston
+        </item>
+
+        <item>
+        Marg\'ilon
+        </item>
+
+        <item>
+        Qo\'qon
+        </item>
+
+
+
+
+
+
+
+
+
+
+
+    </string-array>
+
+</resources>
