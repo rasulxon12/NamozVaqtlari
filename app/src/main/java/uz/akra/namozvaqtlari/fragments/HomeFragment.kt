@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -57,11 +58,6 @@ class HomeFragment : Fragment() {
                 }
             }
 
-
-
-
-
-
         return binding.root
     }
 
@@ -87,6 +83,21 @@ class HomeFragment : Fragment() {
                             tvAsr.text = times?.asr
                             tvShom.text = times?.shom_iftor
                             tvXufton.text = times?.hufton
+
+                            tvRegion.text = rb?.region
+
+                            tvSana.text = rb?.hijri_date?.day.toString()
+                            tvDate.text = rb?.date
+                            tvHaftakun.text = rb?.weekday
+                            tvOy.text = rb?.hijri_date?.month
+
+                            btnHaftalik.setOnClickListener {
+                                findNavController().navigate(R.id.weekFragment)
+                            }
+
+                            btnOylik.setOnClickListener {
+                                findNavController().navigate(R.id.monthFragment)
+                            }
 
                         }
 

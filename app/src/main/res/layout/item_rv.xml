@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="7dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Bomdod:"
+            android:layout_margin="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Quyosh chiqishi:"
+            android:layout_margin="6dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Peshin:"
+            android:layout_margin="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Asr:"
+            android:layout_margin="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Shom:"
+            android:layout_margin="6dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Xufton:"
+            android:layout_margin="6dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="7dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="05:11"
+            android:layout_margin="6dp"
+            android:id="@+id/tv_bomdod"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="05:11"
+            android:layout_margin="6dp"
+            android:id="@+id/tv_quyosh"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="05:11"
+            android:layout_margin="6dp"
+            android:id="@+id/tv_peshin"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="05:11"
+            android:layout_margin="6dp"
+            android:id="@+id/tv_asr"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="05:11"
+            android:layout_margin="6dp"
+            android:id="@+id/tv_shom"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="05:11"
+            android:layout_margin="6dp"
+            android:id="@+id/tv_xufton"
+            />
+
+
+    </LinearLayout>
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="7dp"-->
+
+
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Bomdod:"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="05:11"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+
+
+
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="7dp"-->
+
+
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Quyosh chiqishi:"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="05:11"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_weight="1"-->
+<!--            />-->
+
+
+
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="7dp"-->
+
+
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Peshin:"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="05:11"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+
+
+
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="7dp"-->
+
+
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Asr:"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="05:11"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+
+
+
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="7dp"-->
+
+
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Shom:"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="05:11"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+
+
+
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="7dp"-->
+
+
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Xufton:"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="05:11"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+
+
+
+
+<!--    </LinearLayout>-->
+
+
+
+</LinearLayout>
